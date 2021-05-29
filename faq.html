@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@700&family=Roboto:wght@100&family=Zen+Dots&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Zen+Dots&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href='style3.css' rel='stylesheet'>
+        <!-- SEO -->
+        <title>Preguntas y respuestas</title>
+        <meta name="description" content="Las mas comunes preguntas y respuestas para poder usar la aplicacion">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Canchas, Futbol, 5, Contacto, Preguntas, Respuestas, FAQ, Funcionamiento, Publicar, Reserva, Cobro, Pago">
+        <meta name="author" content="Matias Grinberg">
+    </head>
+    <body>
+        <!-- primera seccion de arriba de todo  -->
+        <header>
+          <div class="header">
+              <h1 class="header__h1"><a class="header__h1__link" href="index.html">Canchita</a></h1>
+              <a href="index.html"><img class="header__img header__img--shadow" src="assets/Pelota_Logo.jpg" alt="Logo"></a>
+              <!-- menu con links -->
+              <nav class="col-md-12 col-lg-5">
+                  <ul>
+                      <button>Go to</button>
+                      <li><a href="locaciones.html">Anfitriones</a></li>
+                      <li><a href="contacto.html">Nosotros</a></li>
+                      <li><a href="faq.html">Ayuda</a></li>
+                      <li><a href="sesion.html">Registro</a></li>
+                      <li><a href="sesion.html">Log In</a></li>
+                  </ul>
+              </nav>
+          </div>        
+        </header>
+
+        <div id="preg">
+          <div>
+              <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#uno">Como publico una locacion?</button>
+              <div id="uno" class="collapse"> Si tenes una canchita y queres ofrecerla en nuestro web, 
+              simplemente tenes q registrate primero como usuario y luego seguir los pasos indicados en nuestro sitio para "publicar una locacion". Si ya estas registrado, deberas loguearte primero. 
+              Vas a tener que llenar 
+              los datos de la locacion como domicilio y telefono, describir ciertas caracteristicas que la hacen unica y 
+              subir suficientes fotos para convencer a nuestros usuarios de que te la alquilen. Al finalizar vas a hacer click en Publicar y listo! </div>
+          </div>
+          <div>
+              <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#dos">Como cobro?</button>
+              <div id="dos" class="collapse"> Cuando alquiles tu propia cancha, en los proximos dos dias habiles posteriores a la fecha del alquiler, 
+              te estaremos transfiriendo los fondos previo descuento de nuestra comision del 10% sobre el total facturado por la reserva. </div>
+          </div>
+          <div>
+              <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#tres">Como reservo una locacion?</button>
+              <div id="tres" class="collapse"> Primero deberas registrarte como usuario nuestro cargando tus datos personales. Si ya estas registrado, deberas loguearte primero. 
+              Luego 
+              ir a nuestra pagina de Inicio haciendo click en nuestro logo, y llenar el formulario de busqueda de acuerdo
+              a lo que estes buscando el cual te devolvera los resultados de tu busqueda de acuerdo a la disponibilidad. 
+              Cuando encuentres la que te interese, podras hacer click en Reservar y posteriormente hacer el pago para finalizar la reserva. </div>
+          </div>
+          <div>
+              <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#cua">Como pago?</button>
+              <div id="cua" class="collapse"> Por el momento solo aceptamos pagos con tarjetas de credito. Una vez que eligas hacer una reserva, deberas 
+              ingresar los datos de tu medio de pago y cliquear en Reservar. Si el pago es procesado exitosamente,
+              te aparecera una confirmacion y se te enviara un email al mismo tiempo con los detalles de tu Reserva. </div>
+          </div>        
+        </div>
+        
+        <footer class="footer">
+          <!-- Footer de contacto (x telefono o x formulario via links para cada uno) -->
+          <h3 class="lead text-uppercase footer__h3">Contacto</h3>
+          <!-- Contacto x2 para contacto -->
+          <a><img class="footer__img" src="assets/Whats.png" alt="Logo"></a>
+          <a class="footer__contacto" href="contacto.html">Formulario</a>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>  
+</html>

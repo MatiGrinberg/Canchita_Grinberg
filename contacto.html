@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href='style3.css' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@700&family=Roboto:wght@100&family=Zen+Dots&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Zen+Dots&display=swap" rel="stylesheet">
+        <!-- SEO -->
+        <title>Contacto</title>
+        <meta name="description" content="Una explicacion de para que sirve la aplicacion y un formulario de contacto para sugerencias o reclamos">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Formulario, Canchas, Futbol, 5, Contacto, Nosotros, Mision, Reclamo, Sugerencia">
+        <meta name="author" content="Matias Grinberg">
+    </head>
+    <body>
+        <!-- primera seccion de arriba de todo  -->
+        <header>
+            <div class="header">
+                <h1 class="header__h1"><a class="header__h1__link" href="index.html">Canchita</a></h1>
+                <a href="index.html"><img class="header__img header__img--shadow" src="assets/Pelota_Logo.jpg" alt="Logo"></a>
+                <!-- menu con links -->
+                <nav class="col-md-12 col-lg-5">
+                    <ul>
+                        <button>Go to</button>
+                        <li><a href="locaciones.html">Anfitriones</a></li>
+                        <li><a href="contacto.html">Nosotros</a></li>
+                        <li><a href="faq.html">Ayuda</a></li>
+                        <li><a href="sesion.html">Registro</a></li>
+                        <li><a href="sesion.html">Log In</a></li>
+                    </ul>
+                </nav>
+            </div>        
+        </header>
+
+        <!-- Nosotros -->
+        <h3 class="h1_tabla">Que hacemos?</h3>
+        <div>
+            <p>En <b>"Canchita"</b> te ofrecemos una plataforma para que puedas encontrar la cancha de futbol 
+                a tu medida en el dia y horario que quieras. Simplemente necesitas <b>ir a la pagina de inicio</b> y 
+                llenar tus preferencias para luego <b>cliquear en el boton "Buscar"</b> el cual te dirigira a nuestra 
+                seccion de "Locaciones", donde podras <b>hacer una reserva</b> entre los anfitriones disponibles.</p>
+        </div>
+
+        <div class="form_c">
+            <!-- form Contacto -->
+            <h3 class="form_c__h3">Escribenos</h3>
+            <form class="form_c__form">
+                <div>
+                    <input type='text' placeholder='Nombre' required>
+                    <input type='text' placeholder='Apellido' required>
+                    <input type='email' placeholder='email' required>
+                </div>
+                <div>
+                    <!-- Drop-Down menu Reclamo/Sugerencia -->
+                    <label for='Motivo'>Motivo de contacto</label>
+                        <select name='Motivo'>
+                            <option value='Reclamo'>Reclamo</option>
+                            <option value='Sugerencia'>Sugerencia</option>
+                        </select>
+                    <!-- Comentario box -->
+                    <textarea name='Contacto' rows='6' columns='10'>Texto........... </textarea>
+                    <button type='submit'>Enviar</button>
+                    <button type='reset'>Limpiar</button>
+                </div>            
+            </form>
+        </div>
+
+        <footer class="footer">
+            <!-- Footer de contacto (x telefono o x formulario via links para cada uno) -->
+            <h3 class="lead text-uppercase footer__h3">Contacto</h3>
+            <!-- Contacto x2 para contacto -->
+            <a><img class="footer__img" src="assets/Whats.png" alt="Logo"></a>
+            <a class="footer__contacto" href="contacto.html">Formulario</a>
+        </footer>
+    </body>  
+</html>

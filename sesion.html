@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@700&family=Roboto:wght@100&family=Zen+Dots&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Zen+Dots&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href='style3.css' rel='stylesheet'>
+        <!-- SEO -->
+        <title>Iniciar Sesion / Registrarse</title>
+        <meta name="description" content="Iniciar sesion o registrarse">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta name="keywords" content="Iniciar, Sesion, Registrarse, Log, Canchas, Futbol, 5, Contacto">
+        <meta name="author" content="Matias Grinberg">
+    </head>
+    <body>
+        <!-- primera seccion de arriba de todo  -->
+        <header>
+            <div class="header">
+                <h1 class="header__h1"><a class="header__h1__link" href="index.html">Canchita</a></h1>
+                <a href="index.html"><img class="header__img header__img--shadow" src="assets/Pelota_Logo.jpg" alt="Logo"></a>
+                <!-- menu con links -->
+                <nav class="col-md-12 col-lg-5">
+                    <ul>
+                        <button>Go to</button>
+                        <li><a href="locaciones.html">Anfitriones</a></li>
+                        <li><a href="contacto.html">Nosotros</a></li>
+                        <li><a href="faq.html">Ayuda</a></li>
+                        <li><a href="sesion.html">Registro</a></li>
+                        <li><a href="sesion.html">Log In</a></li>
+                    </ul>
+                </nav>
+            </div>        
+        </header>
+
+        <!-- seccion del medio de la pagina entre header y footer = Log In / Register -->
+        <div class="form_r">
+            <form>
+                <div class="form-group form_r__group">
+                    <input type='text' placeholder='Id' required>
+                    <input type='text' placeholder='Password' required>
+                    <input type='email' placeholder='email' required>
+                </div>
+                <div class="form-group form_r__group">
+                    <label for='genero'>Genero</label>
+                    <br>
+                    <input type='radio' name='genero' value='h'><label for="h">H</label>
+                    <input type='radio' name='genero' value='m'><label for="m">M</label>
+                    <input type='radio' name='genero' value='x'><label for="x">No-Binario</label>
+                </div>
+                <div class="form-group form_r__group">
+                    <br><input type='checkbox'><span>Recordar contrasena</span>
+                    <br><input type='checkbox'><span>Concuerdo con los terminos y condiciones</span>
+                </div>
+                <div class="form-group form_r__group">
+                    <button type="button">Log In</button>
+                    <button type="button">Register</button>
+                </div>
+            </form>
+        </div>
+
+        <footer class="footer">
+            <!-- Footer de contacto (x telefono o x formulario via links para cada uno) -->
+            <h3 class="lead text-uppercase footer__h3">Contacto</h3>
+            <!-- Contacto x2 para contacto -->
+            <a><img class="footer__img" src="assets/Whats.png" alt="Logo"></a>
+            <a class="footer__contacto" href="contacto.html">Formulario</a>
+        </footer>
+    </body>  
+</html>
