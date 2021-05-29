@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@700&family=Roboto:wght@100&family=Zen+Dots&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Zen+Dots&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href='style3.css' rel='stylesheet'>
+        <!-- SEO -->
+        <title>Inicio</title>
+        <meta name="description" content="Pagina de inicio con un formulario para hacer una busqueda de locacion y con los reviews de usuarios">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Inicio, Reviews, Buscador, Canchas, Futbol, 5, Contacto">
+        <meta name="author" content="Matias Grinberg">
+    </head>
+    <body>
+        <!-- primera seccion de arriba de todo  -->
+        <header>
+            <div class="header">
+                <h1 class="header__h1"><a class="header__h1__link" href="index.html">Canchita!</a></h1>
+                <a href="index.html"><img class="header__img" src="assets/Pelota_Logo.jpg" alt="Logo"></a>
+                <!-- menu con links -->
+                <nav class="col-md-12 col-lg-5">
+                    <ul>
+                        <button>Go to</button>
+                        <li><a href="locaciones.html">Anfitriones</a></li>
+                        <li><a href="contacto.html">Nosotros</a></li>
+                        <li><a href="faq.html">Ayuda</a></li>
+                        <li><a href="sesion.html">Registro</a></li>
+                        <li><a href="sesion.html">Log In</a></li>
+                    </ul>
+                </nav>
+            </div>        
+        </header>
+            <!-- search bar del medio del body -->
+        <div>
+            <form id="search" class="form-inline">
+                
+                <div class="form-group ">
+                    <legend>Dia</legend>  
+                    <input type="checkbox" name="dia" value="L"><label for="L">L</label>
+                    <input type="checkbox" name="dia" value="Ma"><label for="Ma">Ma</label>
+                    <input type="checkbox" name="dia" value="Mi"><label for="Mi">Mi</label>
+                    <input type="checkbox" name="dia" value="J"><label for="J">J</label>
+                    <input type="checkbox" name="dia" value="V"><label for="V">V</label>
+                </div>    
+                
+                <div class="form-group "> 
+                    <legend>Horario</legend>   
+                    <input type="checkbox" name="h" value="M"><label for="M">M</label>
+                    <input type="checkbox" name="h" value="T"><label for="T">T</label>
+                    <input type="checkbox" name="h" value="N"><label for="N">N</label>
+                </div>
+                
+                <div class=" form-group "> 
+                    <legend>Caracteristicas</legend>     
+                    <input type="checkbox" name="car" value="A"><label for="A">A</label>
+                    <input type="checkbox" name="car" value="B"><label for="B">B</label>
+                    <input type="checkbox" name="car" value="C"><label for="C">C</label>
+                </div>  
+                <button class='btn btn-primary' type='submit'>Buscar</button>
+            </form>
+        </div>
+
+        <div class="review-box" >
+        <!-- Reviews (ultimo div antes del footer) -->
+            <h3 class="review-box__h3">Reviews</h3>
+            <ul class="review-box__flex-review-box  row blockquote">
+                <li class="col-s-12 col-lg-3"><p class="review-box__flex-review-box__review-square"> Esta buenisimo, fue muy facil de usar la app y mucha disponibilidad de locaciones.</p><footer class="blockquote-footer">Jose!</footer></li>
+                <li class="col-s-12 col-lg-3"><p class="review-box__flex-review-box__review-square review-box__flex-review-box__review-square--review2"> Muy atento el servicio tecnico, cuando tuve dudas me respondieron al instante.</p><footer class="blockquote-footer">Juan!</footer></li>
+                <li class="col-s-12 col-lg-3"><p class="review-box__flex-review-box__review-square review-box__flex-review-box__review-square--review3">Intuitiva, pero quizas faltarian mas locaciones ya que nunca se consigue disponible. La idea esta buena.</p><footer class="blockquote-footer">Ramon!</footer></li>
+                <li class="col-s-12 col-lg-3"><p class="review-box__flex-review-box__review-square review-box__flex-review-box__review-square--review4">Con mis amigos ya la estamos usando, nada mas que decir. Exitos!!</p><footer class="blockquote-footer">Hector!</footer></li>
+            </ul>
+        </div>
+        <footer class="footer">
+            <!-- Footer de contacto (x telefono o x formulario via links para cada uno) -->
+            <h3 class="lead text-uppercase footer__h3">Contacto</h3>
+            <!-- Contacto x2 para contacto -->
+            <a><img class="footer__img" src="assets/Whats.png" alt="Logo"></a>
+            <a class="footer__contacto" href="contacto.html">Formulario</a>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
