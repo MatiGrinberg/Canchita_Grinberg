@@ -94,7 +94,7 @@ iOSInjectionProject/
 
 
 canchita_grinberg.code-workspace
-index.js
+/index.js
 node_modules/*
 package.json
 package-lock.json
