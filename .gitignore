@@ -94,9 +94,10 @@ iOSInjectionProject/
 
 
 canchita_grinberg.code-workspace
-/node_modules/*
 package.json
 package-lock.json
 style3.css.map
 style3.scss
+index.js
+node_modules/*
 .index.js
