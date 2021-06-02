@@ -93,9 +93,7 @@ fastlane/test_output
 iOSInjectionProject/
 
 index.js
-*.js
-
-
-lldldld
+canchita_grinberg.code-workspace
+node_modules
 
 
